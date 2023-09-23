@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://samuelnatal.com/sitemap.xml
