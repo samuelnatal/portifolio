@@ -8,7 +8,7 @@ const Home: React.FC = () => {
       <div className="wrapper">
         <div className="hlw-cont">
           <img
-            src="/images/img/sam.PNG"
+            src="/images/img/samuel.PNG"
             alt="Samuels' profile image"
             className="profile-img"
           />

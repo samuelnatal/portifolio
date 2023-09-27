@@ -117,7 +117,7 @@ const About: React.FC = () => {
             <label className="p-info-label">Email</label>
             <p className="p-info-paragrap">contact@samuelnatal.com</p>
             <label className="p-info-label">Phone</label>
-            <p className="p-info-paragrap">+255 767 952016</p>
+            <p className="p-info-paragrap">+255 787 358 011</p>
             <label className="p-info-label">Nationality</label>
             <p className="p-info-paragrap">Tanzanian</p>
             <label className="p-info-label">Career</label>
