@@ -81,11 +81,17 @@ nav {
 }
 
 .hlw-h {
-  margin: 3% 0;
-  font-size: 400%;
+  margin: 9% 0;
+  font-size: 200%;
   color: #5f9df7;
   font-family: "Libre Baskerville", serif;
   font-style: italic;
+}
+
+#waving-icon {
+  margin-left: 1em;
+  width: 30px;
+  height: 30px;
 }
 
 .intro-p {
@@ -187,6 +193,10 @@ footer {
     width: 100%;
   }
 
+  .hlw-h {
+    font-size: 100% !important;
+  }
+
   .core-values-dv {
     width: 100%;
     margin-top: 3em;
@@ -261,7 +271,7 @@ footer {
 }
 .abt-nav-btns {
   text-align: center;
-  margin:1%;
+  margin: 1%;
 }
 .info-div.active {
   display: inline-block;
@@ -364,6 +374,21 @@ footer {
   margin: 1% 1% 1% 0;
 }
 
+@media (max-width: 380px) {
+  .skills-ul {
+    padding: 0;
+    margin-left: 3% !important;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .skills-ul {
+    padding: 0;
+    margin-left: 9% ;
+  }
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   .p-info-dv {
@@ -374,8 +399,16 @@ footer {
   .info-div {
     width: 100%;
   }
+
+  .edu-info-dv {
+    width: 100%;
+    margin-top: 1%;
+    padding-left: 0;
+  }
+
   .skills-ul {
     padding: 0;
+    margin-left: 9%;
   }
 
   .skills-li.db-li {

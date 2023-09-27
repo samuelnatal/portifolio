@@ -84,7 +84,7 @@ const Portifolios: React.FC = () => {
             />
             <div className="carousel-caption">
               <h5>Movie theatres's online ticket booking</h5>
-              <a href="/mp">
+              <a href="/moviepoint">
                 <button className="btn btn-outline-warning">
                   View project
                 </button>

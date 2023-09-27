@@ -27,8 +27,8 @@ const ArtisanProject: React.FC = () => {
           </p>
           <img
             src="/images/img/artbox/a-items.PNG"
-            className="List items page screenshoot"
-            alt="..."
+            className="project-img"
+            alt="List items page screenshoot"
           />
           <p className="mt-5 mb-5">
             I have developed a robust search engine equipped with advanced

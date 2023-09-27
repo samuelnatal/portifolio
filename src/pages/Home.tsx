@@ -1,9 +1,20 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet";
 
 const Home: React.FC = () => {
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="This is the home page of my portifolio website."
+        />
+        <link
+          rel="canonical"
+          href="https://samuelnatal.com/"
+        />
+      </Helmet>
       <NavBar />
       <div className="wrapper">
         <div className="hlw-cont">
@@ -15,6 +26,7 @@ const Home: React.FC = () => {
           <h1 className="hlw-h">
             Hi !
             <img
+              id = "waving-icon"
               src="/images/icon/icons8-waving-hand-dark-skin-tone-48.png"
               alt="Hi icon"
             />

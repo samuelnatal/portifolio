@@ -29,7 +29,7 @@ function App() {
           <Route path="/portifolios" element={<Portifolios />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/vicoba" element={<VicobaProject />}></Route>
-          <Route path="/mp" element={<MpProject />}></Route>
+          <Route path="/moviepoint" element={<MpProject />}></Route>
           <Route path="/artisan" element={<ArtisanProject />}></Route>
           
         </Routes>
